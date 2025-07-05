@@ -2,10 +2,18 @@ function Navbar() {
   return (
     <div>
       <nav>
-        <a>Home</a>
-        <a>About me</a>
-        <a>Skills</a>
-        <a>Contact</a>
+        <a href="#" className="navbar-link">
+          Home
+        </a>
+        <a href="#" className="navbar-link">
+          About Me
+        </a>
+        <a href="#" className="navbar-link">
+          Skills
+        </a>
+        <a href="#" className="navbar-link">
+          Contact
+        </a>
       </nav>
     </div>
   );
